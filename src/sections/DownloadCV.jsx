@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import "../styles/DownloadCV.css";
+import "../styles/downloadcv.css";
 
 const DownloadCV = () => {
   const starsRef = useRef(null);
