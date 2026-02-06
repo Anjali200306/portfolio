@@ -224,29 +224,7 @@ const DownloadCV = () => {
         </div>
 
         {/* File info */}
-        <div className="cv-file-info">
-          <div className="cv-file-details">
-            <div className="cv-file-icon">📄</div>
-            <div className="cv-file-text">
-              <div className="cv-file-name">Anjali_Bhalkhede_Resume.pdf</div>
-              <div className="cv-file-size">PDF • Updated recently</div>
-            </div>
-          </div>
-          <div className="cv-file-stats">
-            <div className="cv-stat">
-              <div className="cv-stat-number">5+</div>
-              <div className="cv-stat-label">Pages</div>
-            </div>
-            <div className="cv-stat">
-              <div className="cv-stat-number">20+</div>
-              <div className="cv-stat-label">Projects</div>
-            </div>
-            <div className="cv-stat">
-              <div className="cv-stat-number">15+</div>
-              <div className="cv-stat-label">Skills</div>
-            </div>
-          </div>
-        </div>
+        
       </div>
 
       {/* Inline Styles */}
