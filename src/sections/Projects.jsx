@@ -172,12 +172,12 @@ const Projects = () => {
               </div>
               
               <p className="project-description">
-                Complete social media app with authentication, posts, likes, comments, and real-time updates.
+                Complete social media app with user profiles (@anjali, @shivani, @Shruti), authentication, posts, likes, comments, and real-time updates.
               </p>
 
               <div className="project-features">
+                <span className="feature">👤 Profiles</span>
                 <span className="feature">📱 Posts</span>
-                <span className="feature">❤️ Likes</span>
                 <span className="feature">💬 Comments</span>
                 <span className="feature">🔐 Auth</span>
               </div>
