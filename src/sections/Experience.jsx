@@ -41,7 +41,7 @@ const experienceData = [
   {
     role: "Java Developer",
     company: "Virtual Banking System",
-    duration: "2024",
+    duration: "2025",
     location: "Academic Project",
     description: "Built a complete Java Swing banking system with JDBC, MySQL, and secure transaction features.",
     highlights: [
