@@ -22,7 +22,7 @@ const experienceData = [
   {
     role: "MERN Stack Developer",
     company: "Swish",
-    duration: "2024",
+    duration: "2025",
     location: "Real-World Full-stack Project",
     description: "Developed Swish, a real-world campus social media platform that enables students to connect, share posts, and interact securely within their institution using the MERN stack.",
     highlights: [
@@ -41,7 +41,7 @@ const experienceData = [
   {
     role: "Java Developer",
     company: "Virtual Banking System",
-    duration: "2025",
+    duration: "2024",
     location: "Academic Project",
     description: "Built a complete Java Swing banking system with JDBC, MySQL, and secure transaction features.",
     highlights: [
