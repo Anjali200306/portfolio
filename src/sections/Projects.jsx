@@ -7,6 +7,7 @@ import instaVibeImg from "../assets/instavibe.png";
 import qrGeneratorImg from "../assets/qr-generator.png";
 import speedTypeImg from "../assets/speed-type.png";
 import campusPlatformImg from "../assets/campus-platform.png";
+import sareeKuchhuImg from "../assets/saree-kuchhu.png";
 
 const Projects = () => {
   const cardsRef = useRef([]);
@@ -82,10 +83,88 @@ const Projects = () => {
         </div>
         
         <div className="projects-container">
-          {/* PROJECT 1 - Swish Campus Platform */}
+          {/* PROJECT 1 - Saree Kuchhu Studio */}
+          <div
+            className="project-card"
+            ref={el => cardsRef.current[0] = el}
+          >
+            <div className="project-image-container">
+              <img
+                src={sareeKuchhuImg}
+                alt="Saree Kuchhu"
+                className="project-image"
+              />
+              <div className="project-image-overlay"></div>
+              <div className="project-badge">Full Stack</div>
+            </div>
+
+            <div className="project-content">
+              <div className="project-header">
+                <div className="project-icon">
+                  <FaServer className="icon" />
+                </div>
+                <h3 className="project-title">Saree Kuchhu Studio</h3>
+              </div>
+
+              <p className="project-description">
+                A modern MERN-based e-commerce website for a handmade saree tassel business. Customers can browse categories, view products, book appointments through WhatsApp, and contact the business seamlessly.
+              </p>
+
+              <div className="project-features">
+                <span className="feature">🛍️ Products</span>
+                <span className="feature">📱 WhatsApp</span>
+                <span className="feature">📷 Gallery</span>
+                <span className="feature">📩 Contact</span>
+              </div>
+
+              <div className="tech-stack">
+                <span className="tech-item">
+                  <span className="tech-dot react"></span>
+                  React
+                </span>
+                <span className="tech-item">
+                  <span className="tech-dot node"></span>
+                  Node.js
+                </span>
+                <span className="tech-item">
+                  <span className="tech-dot mongodb"></span>
+                  MongoDB
+                </span>
+                <span className="tech-item">
+                  <span className="tech-dot js"></span>
+                  Express
+                </span>
+              </div>
+
+              <div className="project-links">
+                <a
+                  href="https://saree-kuchhu.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link live"
+                >
+                  <FaExternalLinkAlt />
+                  <span>Live Demo</span>
+                </a>
+                <a
+                  href="https://github.com/Anjali200306/saree-kuchhu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="project-link github"
+                >
+                  <FaGithub />
+                  <span>Code</span>
+                </a>
+              </div>
+            </div>
+            
+            <div className="project-glow"></div>
+          </div>
+
+          {/* PROJECT 2 - Swish Campus Platform */}
           <div 
             className="project-card" 
-            ref={el => cardsRef.current[0] = el}
+            ref={el => cardsRef.current[1] = el}
           >
             <div className="project-image-container">
               <img src={campusPlatformImg} alt="Swish Campus Platform" className="project-image" />
@@ -152,10 +231,10 @@ const Projects = () => {
             <div className="project-glow"></div>
           </div>
 
-          {/* PROJECT 2 - InstaVibe Social Media */}
+          {/* PROJECT 3 - InstaVibe Social Media */}
           <div 
             className="project-card" 
-            ref={el => cardsRef.current[1] = el}
+            ref={el => cardsRef.current[2] = el}
           >
             <div className="project-image-container">
               <img src={instaVibeImg} alt="InstaVibe Social Media" className="project-image" />
@@ -222,10 +301,10 @@ const Projects = () => {
             <div className="project-glow"></div>
           </div>
 
-          {/* PROJECT 3 - QR Code Generator */}
+          {/* PROJECT 4 - QR Code Generator */}
           <div 
             className="project-card" 
-            ref={el => cardsRef.current[2] = el}
+            ref={el => cardsRef.current[3] = el}
           >
             <div className="project-image-container">
               <img src={qrGeneratorImg} alt="QR Code Generator" className="project-image" />
@@ -292,10 +371,10 @@ const Projects = () => {
             <div className="project-glow"></div>
           </div>
 
-          {/* PROJECT 4 - Speed-O-Type */}
+          {/* PROJECT 5 - Speed-O-Type */}
           <div 
             className="project-card" 
-            ref={el => cardsRef.current[3] = el}
+            ref={el => cardsRef.current[4] = el}
           >
             <div className="project-image-container">
               <img src={speedTypeImg} alt="Speed-O-Type" className="project-image" />
@@ -361,7 +440,6 @@ const Projects = () => {
             
             <div className="project-glow"></div>
           </div>
-
         </div>
       </div>
     </section>
