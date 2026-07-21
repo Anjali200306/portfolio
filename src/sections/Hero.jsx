@@ -185,7 +185,6 @@ const Hero = () => {
           Passionate full-stack developer building real-world, production-ready applications.
         </h2>
 
-        {/* UPDATED: Added inline styles to make description visible */}
         <p className="description" style={{
           color: '#e2e8f0',
           fontSize: '1.1rem',

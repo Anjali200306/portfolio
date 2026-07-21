@@ -314,7 +314,6 @@
   font-weight: 400;
   letter-spacing: 0.3px;
   max-width: 700px;
-  /* Container styles REMOVED: no background, padding, border, or box-shadow */
 }
 
 @keyframes descriptionAppear {
@@ -717,7 +716,10 @@
   }
 }
 
-/* Responsive Design */
+/* ============================================ */
+/* RESPONSIVE FIXES – Prevent text overlapping  */
+/* ============================================ */
+
 @media (max-width: 1200px) {
   .hero {
     padding: 80px 80px;
@@ -742,13 +744,14 @@
 @media (max-width: 992px) {
   .hero {
     padding: 80px 60px;
-    gap: 50px;
+    gap: 70px;                    /* increased from 50px */
     flex-direction: column-reverse;
     text-align: center;
   }
   
   .hero-content {
     max-width: 100%;
+    margin-top: 20px;             /* added top margin */
   }
   
   .title {
@@ -780,8 +783,12 @@
 @media (max-width: 768px) {
   .hero {
     padding: 100px 30px;
-    gap: 40px;
+    gap: 60px;                    /* increased from 40px */
     min-height: auto;
+  }
+  
+  .hero-content {
+    margin-top: 25px;             /* added top margin */
   }
   
   .title {
@@ -811,7 +818,11 @@
 @media (max-width: 480px) {
   .hero {
     padding: 80px 20px;
-    gap: 30px;
+    gap: 50px;                    /* increased from 30px */
+  }
+  
+  .hero-content {
+    margin-top: 30px;             /* added top margin */
   }
   
   .title {
